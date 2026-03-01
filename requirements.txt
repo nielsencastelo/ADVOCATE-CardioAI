@@ -1,0 +1,14 @@
+# ADVOCATE-CardioAI (Notebook prototype)
+# Core agent orchestration + LLM connector
+langgraph>=0.2.30
+langchain>=0.2.16
+langchain-community>=0.2.16
+
+# Data validation / schemas
+pydantic>=2.7,<3
+
+# Ollama health check + local HTTP calls
+requests>=2.31
+
+# Optional but recommended (Jupyter)
+ipykernel>=6.29
